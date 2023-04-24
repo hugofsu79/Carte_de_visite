@@ -1,0 +1,96 @@
+
+body{
+    background: linear-gradient(#00C9FF, #92FE9D);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    flex-direction: column-reverse;
+}
+
+img{
+    transform: scale(1.);
+    width: 250px;
+    border-radius: 20px;
+  }
+  
+.nom h1{
+    font-family:'Sigmar One', cursive;
+    font-size: 50px;
+    color: rgb(31, 23, 23);
+    flex-wrap: wrap;
+}
+
+.nom h3{
+    border: 3px;
+    opacity: 50%;
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    flex-wrap: wrap;
+}
+
+.information li {
+    margin-right: 10px;
+    max-width: 500px;
+    font-family: 'Lato', sans-serif;
+    text-decoration:none;
+    font-weight: 300;
+    color: black;
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  
+.container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    color: #80e3ff;
+    display: flex;
+    transform: scale(6.);
+    max-width: 500px;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#rectangle{
+    background: white;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    
+}
+#profil{
+    height: 20px;
+}
+
+
+.profil-icone img {
+    width: 50px; /* Remplacez 100px par la largeur souhaitée */
+    height: auto; /* La hauteur sera automatiquement ajustée en proportion à la largeur */
+  }.profil-icone img {
+    width: 200px; /* Remplacez 200px par la largeur souhaitée */
+    height: auto; /* La hauteur sera automatiquement ajustée en proportion à la largeur */
+  }
+  
+  .profil-icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profil-icone img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
